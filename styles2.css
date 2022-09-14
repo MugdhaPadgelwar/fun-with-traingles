@@ -7,14 +7,13 @@ h1{
     text-align: center;
     color: #a78bfa;
     
-    width: 80%;
-    max-width: 600px;
+    
 }
 .container{
     background-color: #a78bfa;
     display: block;
     margin: 1rem auto;
-    width:90%;
+    width:80%;
     max-width: 600px;
     padding: 4rem;
     border-radius: 2rem;
