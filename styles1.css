@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Dosis&family=Ibarra+Real+Nova&family=Inconsolata&display=swap');
+
+body{
+    margin: auto;
+    background-color:#a78bfa ;
+    font-family: 'Inconsolata', monospace;
+}
+
+form{
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    color:#4c1d95 ;
+    border: 2px solid #4c1d95;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    color: #4c1d95;
+
+}
+input{
+    
+}
+
+label{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+button{
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    background-color: #4c1d95;
+    height: 2rem;
+    width: 9rem;
+    color: #a78bfa;
+    border-radius: 1rem;
+    border: 2px solid #c4b5fd;
+    cursor: pointer;
+}
+
+#output{
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4c1d95;
+    
+    
+}
