@@ -7,6 +7,7 @@ h1{
     text-align: center;
     color: #a78bfa;
     margin: 1rem auto;
+    padding: 2rem 2rem;
     
     
 }
@@ -14,7 +15,7 @@ h1{
     background-color: #a78bfa;
     display: block;
     margin: 1rem auto;
-    width:80%;
+    width:70%;
     max-width: 600px;
     padding: 4rem;
     border-radius: 2rem;
