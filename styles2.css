@@ -1,0 +1,37 @@
+
+body{
+    margin:auto;
+    background-color: #4c1d95;
+}
+h1{
+    text-align: center;
+    color: #a78bfa;
+    padding: 2rem;
+}
+.container{
+    background-color: #a78bfa;
+    display: block;
+    margin: 1rem auto;
+    width:90%;
+    max-width: 600px;
+    padding: 4rem;
+    border-radius: 2rem;
+}
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 2rem; 
+    display: block;
+    text-align: center;
+  }
+  
+  .link-primary {
+    max-width: 140px;
+    padding: 0.6rem 1.5rem;
+    background-color:#4c1d95;
+    color:#a78bfa ;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    
+    
+  }
