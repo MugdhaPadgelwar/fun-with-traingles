@@ -9,12 +9,18 @@ function calculateArea(b, h) {
 }
 
 function calculateAreaOfTriangle() {
-  const areaOfTriangle = calculateArea(
-    Number(baseInput.value),
-    Number(heightInput.value)
-  );
+  if (baseInput.value == "" || heightInput.value == "") {
+    output.innerText = "Please enter all the inputs!";
+  } else if (baseInput.value <= 0 || heightInput.value <= 0) {
+    output.innerText = "Inputs should be greater than 0!";
+  } else {
+    const areaOfTriangle = calculateArea(
+      Number(baseInput.value),
+      Number(heightInput.value)
+    );
 
-  output.innerText = "Area of Traingle is " + areaOfTriangle;
+    output.innerText = "Area of Traingle is " + areaOfTriangle;
+  }
 }
 
 areaBtn.addEventListener("click", calculateAreaOfTriangle);
